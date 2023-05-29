@@ -1,0 +1,202 @@
+@Inbook{Goodwill2015,
+author="Goodwill, James
+and Matlock, Wesley",
+title="The Swift Programming Language",
+bookTitle="Beginning Swift Games Development for iOS",
+year="2015",
+publisher="Apress",
+address="Berkeley, CA",
+pages="219--244",
+abstract="Swift is Apple's new programming language intended to be the future replacement of Objective-C for Mac and iOS development. Some people are referring to it as a functional programming language, but it is actually an object-oriented programming language with a healthy dose of generic programming.",
+isbn="978-1-4842-0400-9",
+doi="10.1007/978-1-4842-0400-9_17",
+url="https://doi.org/10.1007/978-1-4842-0400-9_17"
+}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+@INPROCEEDINGS{7476687,
+
+  author={Rebouças, Marcel and Pinto, Gustavo and Ebert, Felipe and Torres, Weslley and Serebrenik, Alexander and Castor, Fernando},
+
+  booktitle={2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)}, 
+
+  title={An Empirical Study on the Usage of the Swift Programming Language}, 
+
+  year={2016},
+
+  volume={1},
+
+  number={},
+
+  pages={634-638},
+
+  doi={10.1109/SANER.2016.66}}
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+@inbook{doi:10.1137/1.9781611972764.5,
+author = {Indrajit Bhattacharya and Lise Getoor},
+title = {A Latent Dirichlet Model for Unsupervised Entity Resolution},
+booktitle = {Proceedings of the 2006 SIAM International Conference on Data Mining (SDM)},
+chapter = {},
+pages = {47-58},
+doi = {10.1137/1.9781611972764.5},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611972764.5},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611972764.5},
+    abstract = { Abstract Entity resolution has received considerable attention in recent years. Given many references to underlying entities, the goal is to predict which references correspond to the same entity. We show how to extend the Latent Dirichlet Allocation model for this task and propose a probabilistic model for collective entity resolution for relational domains where references are connected to each other. Our approach differs from other recently proposed entity resolution approaches in that it is a) generative, b) does not make pair-wise decisions and c) captures relations between entities through a hidden group variable. We propose a novel sampling algorithm for collective entity resolution which is unsupervised and also takes entity relations into account. Additionally, we do not assume the domain of entities to be known and show how to infer the number of entities from the data. We demonstrate the utility and practicality of our relational entity resolution approach for author resolution in two real-world bibliographic datasets. In addition, we present preliminary results on characterizing conditions under which relational information is useful. }
+}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@inproceedings{10.1145/3196398.3196428,
+author = {Cassee, Nathan and Pinto, Gustavo and Castor, Fernando and Serebrenik, Alexander},
+title = {How Swift Developers Handle Errors},
+year = {2018},
+isbn = {9781450357166},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3196398.3196428},
+doi = {10.1145/3196398.3196428},
+abstract = {Swift is a new programming language developed by Apple as a replacement to Objective-C. It features a sophisticated error handling (EH) mechanism that provides the kind of separation of concerns afforded by exception handling mechanisms in other languages, while also including constructs to improve safety and maintainability. However, Swift also inherits a software development culture stemming from Objective-C being the de-facto standard programming language for Apple platforms for the last 15 years. It is, therefore, a priori unclear whether Swift developers embrace the novel EH mechanisms of the programming language or still rely on the old EH culture of Objective-C even working in Swift.In this paper, we study to what extent developers adhere to good practices exemplified by EH guidelines and tutorials, and what are the common bad EH practices particularly relevant to Swift code. Furthermore, we investigate whether perception of these practices differs between novices and experienced Swift developers.To answer these questions we employ a mixed-methods approach and combine 10 semi-structured interviews with Swift developers and quantitative analysis of 78,760 Swift 4 files extracted from 2,733 open-source GitHub repositories. Our findings indicate that there is ample opportunity to improve the way Swift developers use error handling mechanisms. For instance, some recommendations derived in this work are not well spread in the corpus of studied Swift projects. For example, generic catch handlers are common in Swift (even though it is not uncommon for them to share space with their counterparts: non empty catch handlers), custom, developerdefined error types are rare, and developers are mostly reactive when it comes to error handling, using Swift's constructs mostly to handle errors thrown by libraries, instead of throwing and handling application-specific errors.},
+booktitle = {Proceedings of the 15th International Conference on Mining Software Repositories},
+pages = {292–302},
+numpages = {11},
+keywords = {language feature usage, error handling, swift},
+location = {Gothenburg, Sweden},
+series = {MSR '18}
+}
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@INPROCEEDINGS{10006854,
+
+  author={Domínguez-Álvarez, Daniel and Gorla, Alessandra and Caballero, Juan},
+
+  booktitle={2022 IEEE 22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
+
+  title={On the Usage of Programming Languages in the iOS Ecosystem}, 
+
+  year={2022},
+
+  volume={},
+
+  number={},
+
+  pages={176-180},
+
+  doi={10.1109/SCAM55253.2022.00026}}
+
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@inproceedings{10.1145/3383219.3383237,
+author = {Dalton, Francisco and Ribeiro, M\'{a}rcio and Pinto, Gustavo and Fernandes, Leo and Gheyi, Rohit and Fonseca, Baldoino},
+title = {Is Exceptional Behavior Testing an Exception? An Empirical Assessment Using Java Automated Tests},
+year = {2020},
+isbn = {9781450377317},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3383219.3383237},
+doi = {10.1145/3383219.3383237},
+abstract = {Software testing is a crucial activity to check the internal quality of a software. During testing, developers often create tests for the normal behavior of a particular functionality (e.g., was this file properly uploaded to the cloud?). However, little is known whether developers also create tests for the exceptional behavior (e.g., what happens if the network fails during the file upload?). To minimize this knowledge gap, in this paper we design and perform a mixed-method study to understand how 417 open source Java projects are testing the exceptional behavior using the JUnit and TestNG frameworks, and the AssertJ library. We found that 254 (60.91%) projects have at least one test method dedicated to test the exceptional behavior. We also found that the number of test methods for exceptional behavior with respect to the total number of test methods lies between 0% and 10% in 317 (76.02%) projects. Also, 239 (57.31%) projects test only up to 10% of the used exceptions in the System Under Test (SUT). When it comes to mobile apps, we found that, in general, developers pay less attention to exceptional behavior tests when compared to desktop/server and multi-platform developers. In general, we found more test methods covering custom exceptions (the ones created in the own project) when compared to standard exceptions available in the Java Development Kit (JDK) or in third-party libraries. To triangulate the results, we conduct a survey with 66 developers from the projects we study. In general, the survey results confirm our findings. In particular, the majority of the respondents agrees that developers often neglect exceptional behavior tests. As implications, our numbers might be important to alert developers that more effort should be placed on creating tests for the exceptional behavior.},
+booktitle = {Proceedings of the Evaluation and Assessment in Software Engineering},
+pages = {170–179},
+numpages = {10},
+keywords = {Exceptions, Exceptional Behavior, Software Testing},
+location = {Trondheim, Norway},
+series = {EASE '20}
+}
+
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@article{singh2017raising,
+  title={Raising Performance of iPhone using Swift Language over Other Programming Languages},
+  author={Singh, Bikramjit and Kaur, Ramanjot},
+  journal={International Journal of Advance Research, Ideas and Innovations in Technology},
+  volume={3},
+  number={6},
+  pages={991--994},
+  year={2017}
+}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@article{garcia2015swift,
+  title={Swift vs. objective-c: A new programming language},
+  author={Garc{\'\i}a, Cristian Gonz{\'a}lez and Espada, Jord{\'a}n Pascual and Bustelo, Bego{\~n}a Cristina Pelayo Garc{\'\i}a and Lovelle, Juan Manuel Cueva},
+  journal={IJIMAI},
+  volume={3},
+  number={3},
+  pages={74--81},
+  year={2015},
+  publisher={UNIR-Universidad Internacional de La Rioja}
+}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@inproceedings{grevisse2020skos,
+  title={An SKOS-based vocabulary on the swift programming language},
+  author={Gr{\'e}visse, Christian and Rothkugel, Steffen},
+  booktitle={The Semantic Web--ISWC 2020: 19th International Semantic Web Conference, Athens, Greece, November 2--6, 2020, Proceedings, Part II 19},
+  pages={244--258},
+  year={2020},
+  organization={Springer}
+}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@inproceedings{fojtik2020swift,
+  title={Swift a new programming language for development and education},
+  author={Fojtik, Rostislav},
+  booktitle={Digital Science 2019},
+  pages={284--295},
+  year={2020},
+  organization={Springer}
+}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@book{nayebi2017swift,
+  title={Swift Functional Programming},
+  author={Nayebi, Fatih},
+  year={2017},
+  publisher={Packt Publishing Ltd}
+}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@inproceedings{el2018methodology,
+  title={A methodology of teaching mobile development for undergraduate students in project-based classes},
+  author={El-Tawab, Samy and Iskandarova, Sevinj and Almalag, Mohammad and Ghazizadeh, Puya},
+  booktitle={Society for Information Technology \& Teacher Education International Conference},
+  pages={749--754},
+  year={2018},
+  organization={Association for the Advancement of Computing in Education (AACE)}
+}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@article{miller2001swift,
+  title={Swift},
+  author={Miller, Casey},
+  journal={Kate The Handbook ot Nonsexist Writing (NY: Harper and Row, 1980)},
+  year={2001}
+}
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@inproceedings{latif2016cross,
+  title={Cross platform approach for mobile application development: A survey},
+  author={Latif, Mounaim and Lakhrissi, Younes and Es-Sbai, Najia and others},
+  booktitle={2016 International Conference on Information Technology for Organizations Development (IT4OD)},
+  pages={1--5},
+  year={2016},
+  organization={IEEE}
+}
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@article{moutidis2021community,
+  title={Community evolution on stack overflow},
+  author={Moutidis, Iraklis and Williams, Hywel TP},
+  journal={Plos one},
+  volume={16},
+  number={6},
+  pages={e0253010},
+  year={2021},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
